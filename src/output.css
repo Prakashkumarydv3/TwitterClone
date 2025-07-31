@@ -140,6 +140,9 @@
     background-color: transparent;
     opacity: 1;
   }
+  .overflow-hidden {
+    overflow: hidden;
+  }
   :where(select:is([multiple], [size])) optgroup {
     font-weight: bolder;
   }
@@ -593,6 +596,9 @@
   .outline-none {
     --tw-outline-style: none;
     outline-style: none;
+  }
+  .overflow-hidden {
+    overflow: hidden;
   }
   .hover\:cursor-pointer {
     &:hover {
